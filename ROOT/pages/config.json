@@ -1,0 +1,51 @@
+{
+  "template": null,
+  "children": [
+    {
+      "path": "portofino-upstairs",
+      "accessible": true,
+      "showInNavigation": false,
+      "title": "Upstairs",
+      "embedded": false
+    },
+    {
+      "path": "categorias",
+      "accessible": true,
+      "showInNavigation": true,
+      "icon": "dashboard",
+      "title": "categorias"
+    },
+    {
+      "path": "documentos",
+      "accessible": true,
+      "showInNavigation": true,
+      "icon": "article",
+      "title": "documentos"
+    },
+    {
+      "path": "usuarios",
+      "accessible": true,
+      "showInNavigation": true,
+      "icon": "supervisor_account",
+      "title": "usuarios"
+    },
+    {
+      "path": "my-usuario_rol",
+      "accessible": true,
+      "showInNavigation": true,
+      "icon": "admin_panel_settings",
+      "title": "my usuario rol"
+    },
+    {
+      "path": "my-documentos",
+      "accessible": true,
+      "showInNavigation": true,
+      "icon": "folder_shared",
+      "title": "my documentos"
+    }
+  ],
+  "icon": "home",
+  "text": "<p class=\"ql-align-center\"><strong>Bienvenido a Gestor Documental - Treda Solutions<\/strong><\/p><p>Esta aplicacion ha sido desarrollada como parte del proyecto de gestion documental, con el objetivo de ofrecer una plataforma simple, segura y eficiente para administrar la informacion de la organizacion.<\/p><p>Con este sistema podras:<\/p><ul><li>Organizar documentos en categorias<\/li><li>Subir y descargar archivos de manera centralizada<\/li><li>Controlar el acceso mediante roles y permisos<\/li><li>Consultar y mantener un historial claro de los documentos<\/li><\/ul><p>La aplicacion esta disenada para ser intuitiva, soportar distintos perfiles de usuario (Administrador, Editor y Lector) y facilitar la colaboracion dentro del equipo.<\/p><p class=\"ql-align-center\"><strong>Gracias por usar nuestro sistema<\/strong><\/p>",
+  "title": "Bienvenido",
+  "type": "text"
+}

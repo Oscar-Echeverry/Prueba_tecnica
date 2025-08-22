@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configuration database="prueba" query="from usuarios order by id desc" name="usuarios" variable="usuarios" largeResultSet="false" rowsPerPage="10" useLocalOrder="false">
+    <properties>
+        <property enabled="true" name="id" insertable="false" updatable="false" inSummary="true" searchable="true">
+            <annotations/>
+        </property>
+        <property enabled="true" name="username" insertable="true" updatable="true" inSummary="true" searchable="true">
+            <annotations/>
+        </property>
+        <property enabled="true" name="password" insertable="true" updatable="true" inSummary="true" searchable="true">
+            <annotations/>
+        </property>
+        <property enabled="true" name="estado" insertable="true" updatable="true" inSummary="true" searchable="true">
+            <annotations/>
+        </property>
+        <property enabled="true" name="creado_en" insertable="true" updatable="true" inSummary="true" searchable="true">
+            <annotations/>
+        </property>
+        <property enabled="true" name="actualizado_en" insertable="true" updatable="true" inSummary="true" searchable="true">
+            <annotations/>
+        </property>
+    </properties>
+    <selectionProviders/>
+</configuration>

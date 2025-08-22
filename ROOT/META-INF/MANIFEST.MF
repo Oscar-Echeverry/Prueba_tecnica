@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Spring-Boot-Layers-Index: WEB-INF/layers.idx
+Start-Class: com.manydesigns.portofino.microservices.launcher.WarFileL
+ auncher
+Spring-Boot-Classes: WEB-INF/classes/
+Spring-Boot-Lib: WEB-INF/lib/
+Build-Jdk-Spec: 1.8
+Spring-Boot-Version: 2.5.12
+Created-By: Maven Archiver 3.4.0
+Main-Class: org.springframework.boot.loader.WarLauncher
+

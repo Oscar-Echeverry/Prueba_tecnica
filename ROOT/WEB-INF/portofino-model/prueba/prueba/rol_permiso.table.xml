@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<table tableName="rol_permiso">
+    <annotations/>
+    <columns>
+        <column columnName="rol_id" columnType="BIGINT" length="19" jdbcType="-5" autoincrement="false" nullable="false">
+            <annotations/>
+        </column>
+        <column columnName="permiso_id" columnType="BIGINT" length="19" jdbcType="-5" autoincrement="false" nullable="false">
+            <annotations/>
+        </column>
+    </columns>
+    <foreignKeys>
+        <foreignKey toTable="roles" toSchema="prueba" onUpdate="importedKeyRestrict" onDelete="importedKeyCascade" name="fk_rol_permiso_rol" toDatabase="prueba" hql="from roles">
+            <references>
+                <reference fromColumn="rol_id" toColumn="id"/>
+            </references>
+        </foreignKey>
+        <foreignKey toTable="permisos" toSchema="prueba" onUpdate="importedKeyRestrict" onDelete="importedKeyCascade" name="fk_rol_permiso_permiso" toDatabase="prueba" hql="from permisos">
+            <references>
+                <reference fromColumn="permiso_id" toColumn="id"/>
+            </references>
+        </foreignKey>
+    </foreignKeys>
+    <primaryKey primaryKeyName="PRIMARY">
+        <column columnName="rol_id"/>
+        <column columnName="permiso_id"/>
+    </primaryKey>
+    <selectionProviders/>
+</table>

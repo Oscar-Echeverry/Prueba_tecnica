@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<view insertable="false" updatable="false" tableName="vw_documentos_resumen">
+    <annotations/>
+    <columns>
+        <column columnName="id" columnType="BIGINT" length="19" jdbcType="-5" autoincrement="false" nullable="false">
+            <annotations/>
+        </column>
+        <column columnName="titulo" columnType="VARCHAR" length="255" jdbcType="12" autoincrement="false" nullable="false">
+            <annotations/>
+        </column>
+        <column columnName="estado" columnType="VARCHAR" length="50" jdbcType="12" autoincrement="false" nullable="false">
+            <annotations/>
+        </column>
+        <column columnName="fecha_carga" columnType="DATETIME" jdbcType="93" autoincrement="false" nullable="false">
+            <annotations/>
+        </column>
+        <column columnName="categoria" columnType="VARCHAR" length="100" jdbcType="12" autoincrement="false" nullable="true">
+            <annotations/>
+        </column>
+        <column columnName="autor" columnType="VARCHAR" length="100" jdbcType="12" autoincrement="false" nullable="false">
+            <annotations/>
+        </column>
+    </columns>
+    <foreignKeys/>
+    <selectionProviders/>
+</view>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<table tableName="roles">
+    <annotations/>
+    <columns>
+        <column columnName="id" columnType="BIGINT" length="19" jdbcType="-5" autoincrement="true" nullable="false">
+            <annotations/>
+        </column>
+        <column columnName="nombre" columnType="VARCHAR" length="100" jdbcType="12" autoincrement="false" nullable="false">
+            <annotations>
+                <annotation type="com.manydesigns.portofino.shiro.GroupName"/>
+            </annotations>
+        </column>
+        <column columnName="descripcion" columnType="VARCHAR" length="255" jdbcType="12" autoincrement="false" nullable="true">
+            <annotations/>
+        </column>
+    </columns>
+    <foreignKeys/>
+    <primaryKey primaryKeyName="PRIMARY">
+        <column columnName="id"/>
+    </primaryKey>
+    <selectionProviders/>
+</table>

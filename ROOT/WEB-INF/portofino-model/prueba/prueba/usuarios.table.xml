@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<table tableName="usuarios">
+    <annotations/>
+    <columns>
+        <column columnName="id" columnType="BIGINT" length="19" jdbcType="-5" autoincrement="true" nullable="false">
+            <annotations/>
+        </column>
+        <column columnName="username" columnType="VARCHAR" length="100" jdbcType="12" autoincrement="false" nullable="false">
+            <annotations>
+                <annotation type="com.manydesigns.portofino.shiro.Username"/>
+            </annotations>
+        </column>
+        <column columnName="password" columnType="VARCHAR" length="255" jdbcType="12" autoincrement="false" nullable="false">
+            <annotations>
+                <annotation type="com.manydesigns.elements.annotations.Password"/>
+                <annotation type="com.manydesigns.portofino.shiro.Password"/>
+            </annotations>
+        </column>
+        <column columnName="estado" columnType="VARCHAR" length="20" jdbcType="12" autoincrement="false" nullable="false">
+            <annotations/>
+        </column>
+        <column columnName="creado_en" columnType="DATETIME" jdbcType="93" autoincrement="false" nullable="false">
+            <annotations/>
+        </column>
+        <column columnName="actualizado_en" columnType="DATETIME" jdbcType="93" autoincrement="false" nullable="true">
+            <annotations/>
+        </column>
+    </columns>
+    <foreignKeys/>
+    <primaryKey primaryKeyName="PRIMARY">
+        <column columnName="id"/>
+    </primaryKey>
+    <selectionProviders/>
+</table>

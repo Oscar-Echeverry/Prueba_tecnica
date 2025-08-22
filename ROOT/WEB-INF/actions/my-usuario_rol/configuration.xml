@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configuration database="prueba" query="from usuario_rol where usuario_id = %{#securityUtils.primaryPrincipal.id} order by id desc" name="usuario_rol" variable="usuario_rol" largeResultSet="false" rowsPerPage="10" useLocalOrder="false">
+    <properties>
+        <property enabled="false" name="usuario_id" insertable="false" updatable="false" inSummary="false" searchable="false">
+            <annotations/>
+        </property>
+        <property enabled="true" name="rol_id" insertable="true" updatable="false" inSummary="true" searchable="true">
+            <annotations/>
+        </property>
+    </properties>
+    <selectionProviders/>
+</configuration>

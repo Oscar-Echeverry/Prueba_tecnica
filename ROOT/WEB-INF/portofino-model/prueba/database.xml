@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<database databaseName="prueba" entityMode="MAP">
+    <jdbcConnection driver="com.mysql.jdbc.Driver" url="jdbc:mysql://localhost:3306/prueba?useUnicode=true&amp;characterEncoding=UTF-8&amp;serverTimezone=UTC	connected" username="root" password="root"/>
+    <schemas>
+        <schema schemaName="prueba">
+            <tables/>
+            <annotations/>
+        </schema>
+    </schemas>
+    <annotations/>
+</database>

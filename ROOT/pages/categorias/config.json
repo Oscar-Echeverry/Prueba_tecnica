@@ -1,0 +1,13 @@
+{
+  "template" : null,
+  "children" : [ ],
+  "source" : "categorias",
+  "title" : "categorias",
+  "type" : "crud",
+  "openDetailInSamePageWhenEmbedded" : false,
+  "detailChildren" : [ {
+    "path" : "documentos",
+    "showInNavigation" : true,
+    "title" : "documentos"
+  } ]
+}

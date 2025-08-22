@@ -1,0 +1,19 @@
+{
+  "template": null,
+  "children": [],
+  "source": "usuarios",
+  "title": "usuarios",
+  "type": "crud",
+  "detailChildren": [
+    {
+      "path": "usuario_rol",
+      "showInNavigation": true,
+      "title": "usuario rol"
+    },
+    {
+      "path": "documentos",
+      "showInNavigation": true,
+      "title": "documentos"
+    }
+  ]
+}

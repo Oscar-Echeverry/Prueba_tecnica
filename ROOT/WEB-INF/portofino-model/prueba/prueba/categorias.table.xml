@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<table tableName="categorias">
+    <annotations/>
+    <columns>
+        <column columnName="id" columnType="BIGINT" length="19" jdbcType="-5" autoincrement="true" nullable="false">
+            <annotations/>
+        </column>
+        <column columnName="nombre" columnType="VARCHAR" length="100" jdbcType="12" autoincrement="false" nullable="false">
+            <annotations/>
+        </column>
+        <column columnName="descripcion" columnType="TEXT" length="65535" jdbcType="-1" autoincrement="false" nullable="true">
+            <annotations>
+                <annotation type="com.manydesigns.elements.annotations.Multiline">
+                    <property name="value" value="true"/>
+                </annotation>
+            </annotations>
+        </column>
+    </columns>
+    <foreignKeys/>
+    <primaryKey primaryKeyName="PRIMARY">
+        <column columnName="id"/>
+    </primaryKey>
+    <selectionProviders/>
+</table>
