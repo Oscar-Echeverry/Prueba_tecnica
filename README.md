@@ -66,6 +66,20 @@ Una vez iniciado el servidor, abre en tu navegador:
 👉 [http://localhost:8080/](http://localhost:8080/)
 
 ---
+---
+
+### 6. Credenciales
+**Administrador**
+**Usuario:** admin
+**Contraseña:** admin123
+**Editor**
+**Usuario:** editor
+**Contraseña:** editor123
+**lector**
+**Usuario:** lector
+**Contraseña:** lector123
+
+---
 ## Sesión de preguntas teóricas – Groovy / Java con Portofino y MySQL
 
 **1. ¿Qué es Portofino y en qué se diferencia de Spring Boot?**  
